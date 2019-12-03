@@ -1,0 +1,1 @@
+@py.exe C:\Users\Piotr\Desktop\python 3\pp3.py %*
