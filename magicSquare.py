@@ -4,10 +4,9 @@ import itertools
 def magicSquareFinder(s):
     squares = []
     tiles = list(range(1, s*s + 1))
-    perm = itertools.permutations(tiles)
     magic = ((tiles[0] + tiles[-1]) / 2) * s
     
-    for square in list(perm):
+    for square in itertools.permutations(tiles):
         sums = []
         sum1 = 0
         for i in range(0, s*s, s):
