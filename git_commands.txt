@@ -1,0 +1,21 @@
+$ git config --global user.name '...'
+$ git config --global user.email '...@...'
+$ touch .gitignore
+
+$ git init
+$ git add .
+($ git status)
+$ git commit -m '...comment...'
+($ git remote add origin https://...git)
+($ git remote)
+($ git push -u origin master)
+$ git push
+
+$ git clone https://...git
+$ git pull
+
+$ git log
+$ git status
+$ git revert
+% git revert -n (revert without commit)
+
