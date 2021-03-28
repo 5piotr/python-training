@@ -1,1 +1,1 @@
-test
+thsi is a trianing repository
